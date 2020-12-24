@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.flashparking.parking",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "parking",
+    "packageName": "com.flashparking.parking",
+    "packageFolder": "com/flashparking/parking",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzdkM2Y2MGIwNWYwNzgwMGM1NDZlODg1MTlmZWEyMGNkMDhiYjY3ZTExZDI1YjRjNjVhOTdiOTk4N2QyM2RkOWU2YTU0ZWMxNmJiYTAxNjZhNDI3MmY1NWYzMjlkY2ZhNDg4NDlhMzAwODNhZjU5YjVhYzVmZDk1ZWU0ZTY2MzQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1608783346952,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn"],
+    "blueprints": []
+  }
+}
