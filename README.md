@@ -25,8 +25,7 @@ the postgres on docker container like this:
 docker-compose -f src/main/docker/postgresql.yml up -d
 ```
 
-Run the following commands in two separate terminals to create a blissful development experience where your browser
-auto-refreshes when files change on your hard drive.
+Run the following commands in a terminal
 
 ```
 
@@ -34,7 +33,7 @@ auto-refreshes when files change on your hard drive.
 ```
 
 It will take for a while to start the service initially, after the command is finished,
-you should be access the app by accessing the url http://localhost:8080 from web browser.
+you should be able to access the app by navigating url http://localhost:8080 in your web browser.
 
 Npm is also used to manage CSS and JavaScript dependencies used in this application. You can upgrade dependencies by
 specifying a newer version in [package.json](package.json). You can also run `npm update` and `npm install` to manage dependencies.
