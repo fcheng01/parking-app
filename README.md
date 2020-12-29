@@ -1,6 +1,6 @@
 # parking
 
-This application was generated using JHipster 6.10.5, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.10.5](https://www.jhipster.tech/documentation-archive/v6.10.5).
+This application contains backend and frontend. it also has account management and some basic adminitration functionalities. The parking UI is under `Entities`. The tech stack is spring boot, postgres/liquibase, and the react/redux for the frontend.
 
 ## Development
 
