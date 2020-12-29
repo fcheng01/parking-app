@@ -1,0 +1,24 @@
+{
+  "parkingApp": {
+    "parking": {
+      "home": {
+        "title": "Parking Location List",
+        "createLabel": "Create New Parking Location",
+        "createOrEditLabel": "Create or Edit Parking Location",
+        "notFound": "No Parkings found"
+      },
+      "created": "Parking {{ param }} Create Successfully",
+      "updated": "Parking {{ param }} Update Successfully",
+      "deleted": "Parking {{ param }} Delete Successfully",
+      "delete": {
+        "question": "Are you sure to delete Parking {{ id }}？"
+      },
+      "detail": {
+        "title": "Parking"
+      },
+      "locationName": "Location Name",
+      "total": "Total",
+      "occupiedNumber": "Occupied Number"
+    }
+  }
+}

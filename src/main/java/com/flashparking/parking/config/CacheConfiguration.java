@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.flashparking.parking.domain.User.class.getName());
             createCache(cm, com.flashparking.parking.domain.Authority.class.getName());
             createCache(cm, com.flashparking.parking.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.flashparking.parking.domain.Parking.class.getName());
             // jhipster-needle-caffeine-add-entry
         };
     }

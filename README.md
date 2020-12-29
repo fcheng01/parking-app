@@ -18,16 +18,23 @@ npm install
 
 We use npm scripts and [Webpack][] as our build system.
 
+Since the database is postgres, you have to run the postgres first. Let's say you run
+the postgres on docker container like this:
+
+```bash
+docker-compose -f src/main/docker/postgresql.yml up -d
+```
+
 Run the following commands in two separate terminals to create a blissful development experience where your browser
 auto-refreshes when files change on your hard drive.
 
 ```
 
-
-./gradlew -x webpack
-
-npm start
+./gradlew bootRun -Pdev
 ```
+
+It will take for a while to start the service initially, after the command is finished,
+you should be access the app by accessing the url http://localhost:8080 from web browser.
 
 Npm is also used to manage CSS and JavaScript dependencies used in this application. You can upgrade dependencies by
 specifying a newer version in [package.json](package.json). You can also run `npm update` and `npm install` to manage dependencies.
@@ -52,25 +59,6 @@ The service worker initialization code is commented out by default. To enable it
 ```
 
 Note: [Workbox](https://developers.google.com/web/tools/workbox/) powers JHipster's service worker. It dynamically generates the `service-worker.js` file.
-
-### Managing dependencies
-
-For example, to add [Leaflet][] library as a runtime dependency of your application, you would run following command:
-
-```
-npm install --save --save-exact leaflet
-```
-
-To benefit from TypeScript type definitions from [DefinitelyTyped][] repository in development, you would run following command:
-
-```
-npm install --save-dev --save-exact @types/leaflet
-```
-
-Then you would import the JS and CSS files specified in library's installation instructions so that [Webpack][] knows about them:
-Note: There are still a few other things remaining to do for Leaflet that we won't detail here.
-
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
 
 ## Building for production
 

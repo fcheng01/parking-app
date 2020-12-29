@@ -1,0 +1,16 @@
+
+
+entity Parking(parking) {
+	id Integer required
+  	locationName String required
+    total Integer required min(0)
+    occupiedNumber Integer required min(0)
+	
+}
+
+service * with serviceClass
+
+paginate Parking with pagination
+
+
+    

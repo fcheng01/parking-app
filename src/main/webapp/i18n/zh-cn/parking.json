@@ -1,0 +1,24 @@
+{
+  "parkingApp": {
+    "parking": {
+      "home": {
+        "title": "Parkings",
+        "createLabel": "创建新 Parking",
+        "createOrEditLabel": "创建或编辑 Parking",
+        "notFound": "No Parkings found"
+      },
+      "created": "Parking {{ param }} 创建成功",
+      "updated": "Parking {{ param }} 更新成功",
+      "deleted": "Parking {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Parking {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Parking"
+      },
+      "locationName": "Location Name",
+      "total": "Total",
+      "occupiedNumber": "Occupied Number"
+    }
+  }
+}
